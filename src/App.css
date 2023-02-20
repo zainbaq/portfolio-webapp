@@ -158,6 +158,7 @@ a, a:active, a:hover {
   text-align: center;
   background-color: #160258;
   transition: transform .5s ease;
+
 }
 
 .about:hover {
@@ -165,12 +166,28 @@ a, a:active, a:hover {
   transition: all 0.5s;  
 }
 
-.about-heading {  
+.about-heading {
+  margin-left:43%;
+  display: inline-block;
   font-size: 4rem;
-  /* text-transform: uppercase; */
-  letter-spacing: .3rem;
-  color: lightgray;
+  color: white;
+  overflow: hidden;
+  border-right: .15em solid red;
+  white-space: nowrap; /* prevents line breaks */
+  font-weight: bold; /* adjust the font weight */
+  animation: typing 5s steps(24) forwards;
+  max-width: 200px;
+  flex-direction: column;
+  text-align: center;
+}
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .about-info {
@@ -178,6 +195,8 @@ a, a:active, a:hover {
   justify-content: space-evenly;
   color: lightgray;
   margin: 5%;
+  text-align: center;
+
 }
 
 .about .about-info .about-desc {
@@ -325,7 +344,7 @@ a, a:active, a:hover {
   background-color: #160258;
   width: 100%;
   height: 100vh;
-  margin-top: -2rem;
+  /* margin-top: -2rem; */
   transition: transform .5s ease;
 
 }
@@ -342,6 +361,11 @@ a, a:active, a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: transform .5s ease;
+}
+
+.skills:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .title {
