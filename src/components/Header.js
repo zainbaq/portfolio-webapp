@@ -14,6 +14,10 @@ const Header = () => {
                     <div className="nav-item"><a href="#articles">Articles</a></div>
                     <div className="nav-item"><a href="#skills">Skills</a></div>
                     <div className="nav-item"><a href={Resume}>Resume</a></div>
+                    <div className="nav-item"><a href="https://www.etsy.com/shop/SigilStreetwear">Sigil StreetWear</a></div>
+
+
+                    
 
                 </div>
         </div>

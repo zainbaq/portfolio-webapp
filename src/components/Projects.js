@@ -5,6 +5,8 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { MdOpenInNew } from 'react-icons/md';
+
 
 export const projectArr = [
     {
@@ -14,14 +16,16 @@ export const projectArr = [
         "image" : require("../assets/images/speed_detector_image.png")
     },
     {
-        "name" : "Project 2",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
+        "name" : "Medical Machine Learning",
+        "description" : "This repository consists of medically relevant predictive models. We aim to tackle multiple medical conditions separately in the hopes to ultimately develop an AI capable of making robust diagnoses.",
+        "link" : "https://github.com/zainbaq/medical_ml",
+        "image": require("../assets/images/mildDem12.jpg")
     },
     {
-        "name" : "Project 3",
+        "name" : "LSTM Musician",
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
+        "link" : "https://github.com/zainbaq/lstm_musician",
+        "image": require("../assets/images/pawel-czerwinski-eybM9n4yrpE-unsplash.jpg")
     }
 ]
 
@@ -30,8 +34,9 @@ const Projects = () => {
         dots: true,
         infinite: true,
         initialSlide: 0,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 2,
+        autoplay: true,
         responsive: [
         {
           breakpoint: 600,
@@ -49,7 +54,7 @@ const Projects = () => {
     return (
         <div id='projects' className='projects'>
             <div className="heading">
-                <h2>PROJECTS</h2>
+                <h2>My Side Projects</h2>
             </div>
                 <div className="projects-container">
                     <Slider {...settings}>
@@ -65,15 +70,9 @@ const Projects = () => {
                                             ? <p className='description-min'>{project.description}</p>
                                             :  <p className='description'>{project.description}</p>                                            
                                         }
-                                        {/* <div>
-                                            <a
-                                            className="project-button"
-                                            target="_blank"
-                                            href={project.link}
-                                            rel="noreferrer"
-                                            >GitHub
-                                            </a>
-                                        </div> */}
+                                        <div>
+                                            <a href={project.link} target="_blank" rel="noreferrer" className="body-icons"><i><MdOpenInNew/></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             )
