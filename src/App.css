@@ -36,6 +36,7 @@ a, a:active, a:hover {
 }
 
 .header-container {
+  background-color: black;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -158,27 +159,48 @@ a, a:active, a:hover {
   text-align: center;
   background-color: #160258;
   transition: transform .5s ease;
+  align-items: center;
 
 }
 
 .about:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
   transition: all 0.5s;  
 }
 
-.about-heading {
-  margin-left:43%;
+/* .about-heading {
+  margin-left: 43%;
   display: inline-block;
   font-size: 4rem;
   color: white;
   overflow: hidden;
   border-right: .15em solid red;
   white-space: nowrap; /* prevents line breaks */
-  font-weight: bold; /* adjust the font weight */
-  animation: typing 5s steps(24) forwards;
+  /* animation: typing 10s steps(8) forwards;
   max-width: 200px;
   flex-direction: column;
   text-align: center;
+
+} */
+
+.about-heading {
+  font-family: "Courier New";
+  font-size: 4rem;
+  color: white;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40),
+    blink-caret .75s step-end infinite;
+    max-width: 240px;
+  text-align: center;
+}
+
+#open-link-icon:hover {
+  color: black;
 }
 
 @keyframes typing {
@@ -190,35 +212,47 @@ a, a:active, a:hover {
   }
 }
 
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
 .about-info {
   display: flex;
   justify-content: space-evenly;
   color: lightgray;
   margin: 5%;
   text-align: center;
-
+  font-family: "Courier New";
+  flex-direction: row;
 }
 
 .about .about-info .about-desc {
   /* padding: 2%; */
   font-size: 1.5rem;
   line-height: 2rem;
-  max-width: 50%;
   margin-top: 1.5rem;
-  
+  width: 100%;
+  max-width: 100%;
   display: flex;
   align-items: right;
   justify-content: center;
 }
 .about .about-img {
-    display: block;
-    margin-top: 1%;
+  position: top;
+  align-items: center;
+  display: inline;
+  margin-top: 1%;
+  width: 500px;
+  max-width: 100%;
+  
 }
 
 .about .about-img .about-img-wrapper {
   height: auto;
   max-width: 400px;
-  position: relative;
+  position: flex;
   /* border: 1vh solid #cbd5e1; */
 }
 .about .about-img .about-img-wrapper img {
@@ -231,7 +265,8 @@ a, a:active, a:hover {
 .projects {
   background-color: #160258;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
+  max-width: 100%;
   /* margin-top: rem; */
   transition: transform .5s ease;
 }
@@ -243,22 +278,24 @@ a, a:active, a:hover {
 
 .heading {
   font-size: 2rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding: 1rem;
   letter-spacing: .3rem;
   color: white;
+  font-family: "Courier New";
+
 }
 .projects-container {
-  padding: 3rem;
-  margin-right: 100px;
-  margin-left: 100px;
+  /* padding: 3rem; */
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 .projects-container .project {
-  padding: 5% 5%;
+  /* padding: 5% 5%; */
   position: relative;
   height: 100vh;
-  margin: 1rem 1rem 1 1;
+  /* margin: 2%; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -269,8 +306,9 @@ a, a:active, a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 1.2rem;
+  /* margin-top: 1.2rem; */
   height: 65%;
+  width: auto;
   /* border-radius: 15px; */
   transition: all 0.5s;
   cursor: auto;
@@ -291,13 +329,16 @@ a, a:active, a:hover {
 
 }
 .projects-container .project .content img{
-  display: block;
+  display: flex;
   border-radius: 30px;
-  margin: auto;
-  height: 70%;
-  width: auto;
-  max-width: 350px;
-  max-height: 250px;
+  /* margin: auto; */
+  height: auto;
+  padding: 10px;
+  max-height: 100%;
+  max-width: 100%;
+  /* width: 70% auto; */
+  /* max-width: 350px;
+  max-height: 250px; */
   /* padding: 10%; */
 }
 .name {
@@ -342,8 +383,9 @@ a, a:active, a:hover {
 /* Articles section */
 .articles {
   background-color: #160258;
-  width: 100%;
-  height: 100vh;
+  width: auto;
+  height: 80vh;
+  max-width: 100%;
   /* margin-top: -2rem; */
   transition: transform .5s ease;
 
@@ -352,12 +394,70 @@ a, a:active, a:hover {
 .articles:hover {
   transform: scale(1.05, 1.05);
 }
+.articles-container {
+  /* padding: 3rem; */
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.articles-container .article {
+  /* padding: 5% 5%; */
+  position: relative;
+  height: 100vh;
+  /* margin: 2%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.articles-container .article .content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-top: 1.2rem; */
+  height: 65%;
+  width: auto;
+  /* border-radius: 15px; */
+  transition: all 0.5s;
+  cursor: auto;
+  overflow: hidden;
+  transition: transform .5s ease;
+
+}
+.content:hover {
+  transform: scale(1.05, 1.05);
+  /* background-color: #ef233c; */
+  /* border: 0.3rem solid white; */
+  transition: all 0.5s;  
+}
+.content:before {
+  /* content: ""; */
+  display: block;
+  /* padding-top: 10%; */
+
+}
+.articles-container .article .content img{
+  display: flex;
+  border-radius: 30px;
+  /* margin: auto; */
+  height: auto;
+  padding: 10px;
+  max-height: 100%;
+  max-width: 100%;
+  /* width: 70% auto; */
+  /* max-width: 350px;
+  max-height: 250px; */
+  /* padding: 10%; */
+}
+
 /* End Articles Section */
 
 /* Skills section */
 .skills {
-  background-color: #82b8ff;
-  height: 40vh;
+  padding-top: 5%;
+  background-color: #160258;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -370,7 +470,7 @@ a, a:active, a:hover {
 
 .title {
   font-size: 4rem;
-  color: black;
+  color: white;
   margin: 3rem 0;
   text-align: center;
   /* margin-top: 5%; */
@@ -387,7 +487,7 @@ a, a:active, a:hover {
 }
 
 .skill-icon {
-  color: black;
+  color: white;
   font-size: 40px;
   margin: 5%;
 }
@@ -418,6 +518,41 @@ a, a:active, a:hover {
 }
 /* End Skills section */
 
+/* Music Section */
+
+.music {
+  /* background-color: black; */
+  background-color: #160258;
+  height: 30vh;
+  transition: transform .5s ease;
+}
+
+.music:hover {
+  transform: scale(1.05, 1.05);
+}
+.tracks-container {
+  margin-left: 8%;
+  margin-right: 8%;
+
+  /* margin-top: 2%; */
+}
+.player-container {
+  max-width: 100%;
+  padding: 20px;
+  display: flex;
+  transition: transform .5s ease;
+}
+
+.player-container:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.player {
+  max-width: 100%;
+  width: 30%;
+}
+/* End Music Section  */
+
 /* Footer section  */
 .footer {
   min-height: 20vh;
@@ -428,9 +563,11 @@ a, a:active, a:hover {
   text-align: center;
   padding: 5rem;
 }
+
 .footer .footer-contact-info {
   padding: 20px;
 }
+
 .footer .footer-contact-info .footer-heading {
   font-size: 2.5rem;
   text-transform: uppercase;

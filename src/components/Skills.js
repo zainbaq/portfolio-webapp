@@ -66,7 +66,7 @@ const Skills = () => {
 
     return (
         <div id='skills' className='skills'>
-            <h2 className='title'>Skills</h2>
+            <h2 className='heading'>Skills</h2>
             <div className='skill-holder'>
                 {
                     skillsArr.map((skill, index) => {

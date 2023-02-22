@@ -42,7 +42,7 @@ const Articles = () => {
         infinite: true,
         initialSlide: 0,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         autoplay: true,
         responsive: [
         {
@@ -51,7 +51,7 @@ const Articles = () => {
             infinite: true,
             autoplay: true,
             initialSlide: 0,
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 2
           }
         }
@@ -62,14 +62,14 @@ const Articles = () => {
             <div className="heading">
                 <h2>Articles</h2>
             </div>
-                <div className="projects-container">
+                <div className="articles-container">
                     <Slider {...settings}>
                     {
                         articlesArr.map((article, key) => {
                             return (
-                                <div key={key} className="project">
+                                <div key={key} className="article">
                                     <div className="content">
-                                        <img className="project-image" key={key} src={article.image} alt="Article"/>
+                                        <img className="article-image" key={key} src={article.image} alt="Article"/>
                                         <h2 className="name">{article.name}</h2>
                                         {
                                             article.description.length > 130 

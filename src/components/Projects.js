@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { MdOpenInNew } from 'react-icons/md';
 
 
+
 export const projectArr = [
     {
         "name" : "Dash Cam Speed Detector",
@@ -31,11 +32,11 @@ export const projectArr = [
 
 const Projects = () => {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         initialSlide: 0,
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 3,
+        slidesToScroll: 1,
         autoplay: true,
         responsive: [
         {
@@ -71,7 +72,7 @@ const Projects = () => {
                                             :  <p className='description'>{project.description}</p>                                            
                                         }
                                         <div>
-                                            <a href={project.link} target="_blank" rel="noreferrer" className="body-icons"><i><MdOpenInNew/></i></a>
+                                            <a href={project.link} id="open-link-icon" target="_blank" rel="noreferrer" className="body-icons"><i><MdOpenInNew/></i></a>
                                         </div>
                                     </div>
                                 </div>
