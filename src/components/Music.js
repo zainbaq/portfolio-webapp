@@ -5,24 +5,20 @@ import Slider from "react-slick";
 
 export const musicArr = [
     {
-        "name" : "Dash Cam Speed Detector",
-        "description" : "Convolutional neural network trained on frames from dash cam .MP4 footage to regress driver speed. Implemented dense optical flow to capture differences between frames. These mutated frames are then passed into the model.",
+        "name" : "RONIN",
         "link" : "https://soundcloud.com/zain-baq/ronin?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     },
     {
-        "name" : "Medical Machine Learning",
-        "description" : "This repository consists of medically relevant predictive models. We aim to tackle multiple medical conditions separately in the hopes to ultimately develop an AI capable of making robust diagnoses.",
+        "name" : "The Castle In The Sky",
         "link" : "https://soundcloud.com/zain-baq/the-castle-in-the-sky?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     },
     {
-        "name" : "Medical Machine Learning",
-        "description" : "This repository consists of medically relevant predictive models. We aim to tackle multiple medical conditions separately in the hopes to ultimately develop an AI capable of making robust diagnoses.",
-        "link" : "https://soundcloud.com/zain-baq/the-castle-in-the-sky?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+        "name" : "Honing His Howl: Part One",
+        "link" : "https://soundcloud.com/zain-baq/honing-his-howl-part-1-fiery-eyes?si=1cfe62736cc1446faa4969bd5e8a2adc&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     },
     {
-        "name" : "Medical Machine Learning",
-        "description" : "This repository consists of medically relevant predictive models. We aim to tackle multiple medical conditions separately in the hopes to ultimately develop an AI capable of making robust diagnoses.",
-        "link" : "https://soundcloud.com/zain-baq/the-castle-in-the-sky?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+        "name" : "Ode To A Fallen Soldier",
+        "link" : "https://soundcloud.com/zain-baq/ode-to-a-fallen-soldier-original-mix?si=645ebce0c05745bdbe390a8a45ba0479&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     }
 ];
 

@@ -74,7 +74,9 @@ const Skills = () => {
                         return (
                             <i key={index} className='skill-cards'>
                                 <Icon className='skill-icon'/>
-                                <p className="skill">{skill.name}</p>
+                                <div class="skill-container">
+                                    <p className="skill">{skill.name}</p>
+                                </div>
                             </i>
                         )
                     })                    

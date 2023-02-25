@@ -479,7 +479,7 @@ a, a:active, a:hover {
 
 .skill-cards {
   /* background-color: gray; */
-  /* padding: 1.2rem 1rem 1rem 1rem; */
+  padding: 1.3rem;
   margin: 1.2rem;
     width: 8rem;
   border-radius: 100%;
@@ -504,17 +504,23 @@ a, a:active, a:hover {
   /* padding: 5%; */
 }
 
+.skill-container {
+  width: 100px;
+  height: 50px;
+  display: none;
+}
+
 .skill {
   font-size: 1.3rem;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   text-align: center;
   /* text-shadow: 2px 3px 4px #000000; */
   display: none;
   /* text-transform: uppercase; */
 }
 
-.skill-icon:hover + .skill {
-  display: inline;
+.skill-container:hover + .skill + .skill-icon {
+  display: block;
 }
 /* End Skills section */
 
