@@ -6,16 +6,15 @@ const Footer = () => {
     return (
         <footer id="footer" className="footer">
             <div className="footer-contact-info">
-                <h1 className="footer-heading">Connect With Me</h1>
-                <p className="footer-contact-access">Email: test@educative.io</p>
-                <p className="footer-contact-access">Mobile: 1234 1234 1234</p>
+                <h1 className="footer-heading">Feel free to contact me!</h1>
+                <p className="footer-contact-access">+1 818 852 9817</p>
             </div>
             <div>
                 <h1>Social Links</h1>
                 <div className="social-icons">
-                    <a href="https://www.educative.io/"><i><FaFacebook /></i></a>
-                    <a href="https://www.educative.io/"><i><FaInstagram /></i></a>
-                    <a href="https://www.educative.io/"><i><FaTwitter /></i></a>
+                    {/* <a href="https://www.educative.io/"><i><FaFacebook /></i></a> */}
+                    {/* <a href="https://www.educative.io/"><i><FaInstagram /></i></a> */}
+                    <a href="https://twitter.com/thelazyronin"><i><FaTwitter /></i></a>
                 </div>
             </div>
         </footer>

@@ -1,7 +1,8 @@
 // Create your Skills component here
 
-import { FaPython, FaLinux, FaAws, FaDocker, FaGithub } from "react-icons/fa";
-import {SiTensorflow, SiPytorch} from "react-icons/si"
+import { FaPython, FaLinux, FaAws, FaDocker, FaGithub, FaReact } from "react-icons/fa";
+import {SiTensorflow, SiPytorch, SiMicrosoftazure, SiMysql, SiAnaconda, SiJavascript, SiVisualstudio, SiJira} from "react-icons/si"
+
 
 const Skills = () => {
     const skillsArr = [
@@ -32,12 +33,40 @@ const Skills = () => {
         {
             "name" : "PyTorch",
             "icon" : SiPytorch
+        },
+        {
+            "name" : "Microsoft Azure",
+            "icon" : SiMicrosoftazure
+        },
+        {
+            "name" : "MySQL",
+            "icon" : SiMysql
+        },
+        {
+            "name" : "Anaconda",
+            "icon" : SiAnaconda
+        },
+        {
+            "name" : "JavaScript",
+            "icon" : SiJavascript
+        },
+        {
+            "name" : "React",
+            "icon" : FaReact
+        },
+        {
+            "name" : "Visual Studio",
+            "icon" : SiVisualstudio
+        },
+        {
+            "name" : "Jira",
+            "icon" : SiJira
         }
     ];
 
     return (
         <div id='skills' className='skills'>
-            <h2 className='title'>Skills</h2>
+            <h2 className='heading'>Skills</h2>
             <div className='skill-holder'>
                 {
                     skillsArr.map((skill, index) => {
@@ -45,11 +74,9 @@ const Skills = () => {
                         return (
                             <i key={index} className='skill-cards'>
                                 <Icon className='skill-icon'/>
-                                {/* <p
-                                className="skill"
-                                >
-                                    {skill.name}
-                                </p> */}
+                                <div class="skill-container">
+                                    <p className="skill">{skill.name}</p>
+                                </div>
                             </i>
                         )
                     })                    
