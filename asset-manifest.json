@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.a96fc504.css",
-    "main.js": "/static/js/main.8e3b744b.js",
-    "static/media/pawel-czerwinski-eybM9n4yrpE-unsplash.jpg": "/static/media/pawel-czerwinski-eybM9n4yrpE-unsplash.d99cb012670fc198e2b8.jpg",
-    "static/media/speed_detector_image.png": "/static/media/speed_detector_image.526747de9468e83df2ca.png",
-    "static/media/me.jpg": "/static/media/me.9ab64f9419221a4254cd.jpg",
-    "static/media/business-analytics.jpg": "/static/media/business-analytics.febe3b544bdd91593299.jpg",
-    "static/media/resume.pdf": "/static/media/resume.02e41e969fe7e883c00d.pdf",
-    "static/media/sale-image.webp": "/static/media/sale-image.a672858dcd3b0862e4a9.webp",
-    "static/media/dice.jpg": "/static/media/dice.810c713494cd21e52d31.jpg",
-    "static/media/time-series-stock-image.png": "/static/media/time-series-stock-image.01d146884c5e966926b8.png",
-    "static/media/ERP-after-reward-at-arm-3-90-30-averaged-across-participants-from-channel-Dyad.png": "/static/media/ERP-after-reward-at-arm-3-90-30-averaged-across-participants-from-channel-Dyad.362af09169cb045172d2.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.a96fc504.css.map": "/static/css/main.a96fc504.css.map",
-    "main.8e3b744b.js.map": "/static/js/main.8e3b744b.js.map"
+    "main.css": "/portfolio-webapp/static/css/main.0fc4ab9d.css",
+    "main.js": "/portfolio-webapp/static/js/main.c3994a92.js",
+    "static/media/pawel-czerwinski-eybM9n4yrpE-unsplash.jpg": "/portfolio-webapp/static/media/pawel-czerwinski-eybM9n4yrpE-unsplash.d99cb012670fc198e2b8.jpg",
+    "static/media/speed_detector_image.png": "/portfolio-webapp/static/media/speed_detector_image.526747de9468e83df2ca.png",
+    "static/media/me.jpg": "/portfolio-webapp/static/media/me.9ab64f9419221a4254cd.jpg",
+    "static/media/business-analytics.jpg": "/portfolio-webapp/static/media/business-analytics.febe3b544bdd91593299.jpg",
+    "static/media/resume.pdf": "/portfolio-webapp/static/media/resume.02e41e969fe7e883c00d.pdf",
+    "static/media/sale-image.webp": "/portfolio-webapp/static/media/sale-image.a672858dcd3b0862e4a9.webp",
+    "static/media/dice.jpg": "/portfolio-webapp/static/media/dice.810c713494cd21e52d31.jpg",
+    "static/media/time-series-stock-image.png": "/portfolio-webapp/static/media/time-series-stock-image.01d146884c5e966926b8.png",
+    "static/media/ERP-after-reward-at-arm-3-90-30-averaged-across-participants-from-channel-Dyad.png": "/portfolio-webapp/static/media/ERP-after-reward-at-arm-3-90-30-averaged-across-participants-from-channel-Dyad.362af09169cb045172d2.png",
+    "static/media/slick.svg": "/portfolio-webapp/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio-webapp/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio-webapp/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio-webapp/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio-webapp/index.html",
+    "main.0fc4ab9d.css.map": "/portfolio-webapp/static/css/main.0fc4ab9d.css.map",
+    "main.c3994a92.js.map": "/portfolio-webapp/static/js/main.c3994a92.js.map"
   },
   "entrypoints": [
-    "static/css/main.a96fc504.css",
-    "static/js/main.8e3b744b.js"
+    "static/css/main.0fc4ab9d.css",
+    "static/js/main.c3994a92.js"
   ]
 }
