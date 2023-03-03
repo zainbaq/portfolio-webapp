@@ -1,11 +1,7 @@
-Hello, I'm Zain, a software engineer that's specilized in AI and Machine Learning.
+Hello there! My name is Zain, and I'm a born-and-bred New Yorker with a global perspective on software engineering. Raised in the UK and Pakistan, I bring a unique cultural and intellectual diversity to my work as a software engineer specializing in Artificial Intelligence and Data Science.
 
-\n\nMy Pakistani heritage and early years spent in the UK have shaped my unique perspective on the world of technology and problem-solving. 
+I earned my degree in Machine Learning and AI from UC San Diego in 2019, and since then, I've been at the forefront of implementing and deploying cutting-edge software applications that leverage machine learning to drive results in a variety of industries. From Retail to Healthcare, I've developed algorithms for Natural Language Processing, Computer Vision, Business Analytics, and Machine Learning Operations, consistently exceeding expectations and driving business outcomes for my clients.
 
-I've always had a love of mathematics and physics, which led me to study machine learning and AI at UCSD. Since then, I've worked as a Software Engineer in New York City.
+I'm also passionate about sharing my knowledge and expertise in AI, which is why I've been creating informative Medium tutorials on the latest trends and techniques in Data Science and ML. This enables me to communicate my skills and ideas to others in a meaningful and impactful way.
 
-\nBut my passions don't end with technology - I'm also a talented soccer player and chess enthusiast. Whether I'm on the field or at the board, I approach each challenge with a calm and focused mindset, always seeking to improve and achieve my goals.
-
-I'm dedicated to sharing my knowledge and expertise with others, and often write informative tutorials on Medium. With my unwavering commitment to excellence and my ability to balance technical skill, I'm constantly inspired to push myself further and make a positive impact on the world around me. 
-
-I'm honored to be a part of the diverse and ever-evolving tech community, and look forward to what the future holds.
+When I'm not working, you can find me playing chess, making music, playing football (soccer), or diving deep into my vast library of video games.
