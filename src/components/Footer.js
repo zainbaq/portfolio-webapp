@@ -1,6 +1,6 @@
 // Create your Footer component here
 
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
