@@ -60,7 +60,7 @@ const Articles = () => {
     return (
         <div id='articles' className='articles'>
             <div className="heading">
-                <h2>Articles</h2>
+                <h2>Articles & Tutorials</h2>
             </div>
                 <div className="articles-container">
                     <Slider {...settings}>
@@ -77,7 +77,7 @@ const Articles = () => {
                                             :  <p className='description'>{article.description}</p>                                            
                                         }
                                         {/* <div> */}
-                                         <a href={article.link} target="_blank" rel="noreferrer" className="body-icons"><i><MdOpenInNew/></i></a>
+                                         <a href={article.link} id="open-link-icon" target="_blank" rel="noreferrer" className="body-icons">Open Link<i><MdOpenInNew/></i></a>
                                         {/* </div> */}
                                     </div>
                                 </div>

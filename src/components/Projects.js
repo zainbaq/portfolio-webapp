@@ -24,7 +24,7 @@ export const projectArr = [
     },
     {
         "name" : "LSTM Musician",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description" : "Trained a recurrent neural network on a corpus of MIDI music data to predict the next MIDI token in a prepared sequence.",
         "link" : "https://github.com/zainbaq/lstm_musician",
         "image": require("../assets/images/pawel-czerwinski-eybM9n4yrpE-unsplash.jpg")
     }
@@ -72,7 +72,7 @@ const Projects = () => {
                                             :  <p className='description'>{project.description}</p>                                            
                                         }
                                         <div>
-                                            <a href={project.link} id="open-link-icon" target="_blank" rel="noreferrer" className="body-icons"><i><MdOpenInNew/></i></a>
+                                            <a href={project.link} id="open-link-icon" target="_blank" rel="noreferrer" className="body-icons">Open Link<i><MdOpenInNew/></i></a>
                                         </div>
                                     </div>
                                 </div>
