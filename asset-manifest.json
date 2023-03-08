@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio-webapp/static/css/main.260b9b0d.css",
-    "main.js": "/portfolio-webapp/static/js/main.cdc1dc33.js",
+    "main.css": "/portfolio-webapp/static/css/main.ac5207c9.css",
+    "main.js": "/portfolio-webapp/static/js/main.5fa6cf50.js",
     "static/media/pawel-czerwinski-eybM9n4yrpE-unsplash.jpg": "/portfolio-webapp/static/media/pawel-czerwinski-eybM9n4yrpE-unsplash.d99cb012670fc198e2b8.jpg",
     "static/media/speed_detector_image.png": "/portfolio-webapp/static/media/speed_detector_image.526747de9468e83df2ca.png",
     "static/media/me.jpg": "/portfolio-webapp/static/media/me.9ab64f9419221a4254cd.jpg",
     "static/media/business-analytics.jpg": "/portfolio-webapp/static/media/business-analytics.febe3b544bdd91593299.jpg",
-    "static/media/resume.pdf": "/portfolio-webapp/static/media/resume.02e41e969fe7e883c00d.pdf",
+    "static/media/resume.pdf": "/portfolio-webapp/static/media/resume.62307ce4607adff54cad.pdf",
     "static/media/sale-image.webp": "/portfolio-webapp/static/media/sale-image.a672858dcd3b0862e4a9.webp",
     "static/media/dice.jpg": "/portfolio-webapp/static/media/dice.810c713494cd21e52d31.jpg",
     "static/media/time-series-stock-image.png": "/portfolio-webapp/static/media/time-series-stock-image.01d146884c5e966926b8.png",
@@ -16,11 +16,11 @@
     "static/media/slick.ttf": "/portfolio-webapp/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio-webapp/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-webapp/index.html",
-    "main.260b9b0d.css.map": "/portfolio-webapp/static/css/main.260b9b0d.css.map",
-    "main.cdc1dc33.js.map": "/portfolio-webapp/static/js/main.cdc1dc33.js.map"
+    "main.ac5207c9.css.map": "/portfolio-webapp/static/css/main.ac5207c9.css.map",
+    "main.5fa6cf50.js.map": "/portfolio-webapp/static/js/main.5fa6cf50.js.map"
   },
   "entrypoints": [
-    "static/css/main.260b9b0d.css",
-    "static/js/main.cdc1dc33.js"
+    "static/css/main.ac5207c9.css",
+    "static/js/main.5fa6cf50.js"
   ]
 }
