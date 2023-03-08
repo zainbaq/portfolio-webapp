@@ -57,7 +57,7 @@ const Music = () => {
                         return (
                             <div className="player-container" key={key}>
                                 {/* <h2 className="track-title">{track.name}</h2> */}
-                                <ReactPlayer className="player" height={100} width={360}
+                                <ReactPlayer className="player" height={90} width={360}
                                     url={track.link}
                                 />
                             </div>

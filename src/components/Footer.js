@@ -7,7 +7,7 @@ const Footer = () => {
         <footer id="footer" className="footer">
             <div className="footer-contact-info">
                 <h1 className="footer-heading">Feel free to contact me!</h1>
-                <p className="footer-contact-access">+1 818 852 9817</p>
+                {/* <p className="footer-contact-access"></p> */}
             </div>
             <div>
                 <h1>Social Links</h1>

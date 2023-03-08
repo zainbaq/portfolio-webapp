@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.hr-break {
+  width: 40%;
+  text-align: left;
+  margin-left: 10px;
+  height: 50px;
+  /* background-color: black; */
+  color: black;
+}
+
 a, a:active, a:hover {
   text-decoration: none;
   color: white;
@@ -77,11 +86,15 @@ a, a:active, a:hover {
 .body {
   position: relative;
   background-color: #160258;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   width: 100%;
-  height: 80vh;
+  /* height: 85vh; */
   min-height: 56rem;
+  /* margin-bottom: 0; */
+  /* margin-top: 10%; */
+  padding-top:10%;
+  align-items: center;
 }
 
 .body .body-container {
@@ -99,11 +112,13 @@ a, a:active, a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 20rem;
+  max-width: 30rem;
 }
 
 .body-img {
   width: 100%;
+  max-width: 80%;
+  /* max-width: 100%; */
   border-radius: 50%;
   transition: transform .5s ease;
 }
@@ -127,6 +142,7 @@ a, a:active, a:hover {
   font-size: 1.5rem;
   padding-bottom: 1rem;
   color: lightgray;
+  width: 100%;
 }
 
 .body-icons {
@@ -147,29 +163,27 @@ a, a:active, a:hover {
   color: lightgray;
   transform: scale(1.2);
 }
+
+.tracks-container {
+  position: right;
+  display: absolute;
+  margin-right: 0;
+}
 /* End Body Section */ 
 
 /* About Section  */
 .about {
   width: 100%;
   /* height: 80vh; */
-  padding: 4rem 5rem;
+  /* padding: 4rem 5rem; */
   display: flex;
   flex-direction: column;
   text-align: center;
   background-color: #160258;
-  transition: transform .5s ease;
-  align-items: center;
-
-}
-
-.about:hover {
-  transform: scale(1.05, 1.05);
-  transition: all 0.5s;  
 }
 
 .about-heading {
-  font-family: "Courier New";
+  /* font-family: "Courier New"; */
   font-size: 4rem;
   color: white;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -182,10 +196,16 @@ a, a:active, a:hover {
     blink-caret .75s step-end infinite;
     max-width: 240px;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
+#open-link-icon {
+  font-size: 1.5rem;
+}
 #open-link-icon:hover {
   color: black;
+  background-color: white;
 }
 
 @keyframes typing {
@@ -209,8 +229,19 @@ a, a:active, a:hover {
   color: lightgray;
   margin:1%;
   text-align: center;
-  font-family: "Courier New";
+  /* font-family: "Courier New"; */
   flex-direction: row;
+  margin-right: 15%;
+  margin-left: 15%;
+  transition: transform .5s ease;
+  background-color: white;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.about-info:hover {
+  transform: scale(1.05, 1.05);
+  transition: all 0.5s;  
 }
 
 .about .about-info .about-desc {
@@ -225,16 +256,28 @@ a, a:active, a:hover {
   justify-content: center;
   text-justify: auto;
   display: block;
+  flex-direction: row;
+  /* font-weight: bold; */
   /* text-align: justify; */
 }
 .about .about-img {
   position: top;
-  align-items: center;
+  /* align-items: center; */
   display: inline;
   margin-top: 1%;
-  width: 500px;
+  width: 200px;
+  height: auto;
   max-width: 100%;
   
+}
+
+.about-para {
+  margin:10px;
+  font-size: 2rem;
+  color: black;
+  margin-top:5px;
+  margin-bottom: 5px;
+  text-align: left;
 }
 
 .about .about-img .about-img-wrapper {
@@ -253,30 +296,32 @@ a, a:active, a:hover {
 .projects {
   background-color: #160258;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   max-width: 100%;
   /* margin-top: rem; */
-  transition: transform .5s ease;
-}
-
-.projects:hover {
-  transform: scale(1.05, 1.05);
-  transition: all 0.5s;  
 }
 
 .heading {
+  /* padding-top: 40px; */
   font-size: 2rem;
   /* text-transform: uppercase; */
   padding: 1rem;
   letter-spacing: .3rem;
   color: white;
-  font-family: "Courier New";
+  padding-top:2rem;
+  /* font-family: "Courier New"; */
 
 }
 .projects-container {
   /* padding: 3rem; */
   margin-right: 15%;
   margin-left: 15%;
+  transition: transform .5s ease;
+}
+
+.projects-container:hover {
+  transform: scale(1.03, 1.03);
+  transition: all 0.5s;  
 }
 
 .projects-container .project {
@@ -297,7 +342,6 @@ a, a:active, a:hover {
   /* margin-top: 1.2rem; */
   height: 65%;
   width: auto;
-  /* border-radius: 15px; */
   transition: all 0.5s;
   cursor: auto;
   overflow: hidden;
@@ -321,7 +365,7 @@ a, a:active, a:hover {
   border-radius: 30px;
   /* margin: auto; */
   height: auto;
-  padding: 10px;
+  padding: 8%;
   max-height: 100%;
   max-width: 100%;
   /* width: 70% auto; */
@@ -379,13 +423,16 @@ a, a:active, a:hover {
 
 }
 
-.articles:hover {
-  transform: scale(1.05, 1.05);
-}
 .articles-container {
   /* padding: 3rem; */
   margin-right: 15%;
   margin-left: 15%;
+  transition: transform .5s ease;
+}
+
+.articles-container:hover {
+  transform: scale(1.03, 1.03);
+  transition: all 0.5s;  
 }
 
 .articles-container .article {
@@ -406,7 +453,7 @@ a, a:active, a:hover {
   /* margin-top: 1.2rem; */
   height: 65%;
   width: auto;
-  /* border-radius: 15px; */
+  border-radius: 30px;
   transition: all 0.5s;
   cursor: auto;
   overflow: hidden;
@@ -430,7 +477,7 @@ a, a:active, a:hover {
   border-radius: 30px;
   /* margin: auto; */
   height: auto;
-  padding: 10px;
+  padding: 8%;
   max-height: 100%;
   max-width: 100%;
   /* width: 70% auto; */
@@ -445,19 +492,15 @@ a, a:active, a:hover {
 .skills {
   padding-top: 5%;
   background-color: #160258;
-  height: 60vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform .5s ease;
-}
-
-.skills:hover {
-  transform: scale(1.05, 1.05);
 }
 
 .title {
-  font-size: 4rem;
+  /* font-size: 3rem; */
+  font-size: 5rem;
   color: white;
   margin: 3rem 0;
   text-align: center;
@@ -493,6 +536,8 @@ a, a:active, a:hover {
 }
 
 .skill-container {
+  margin-right: 15%;
+  margin-left: 15%;
   width: 100px;
   height: 50px;
   display: none;
@@ -518,17 +563,17 @@ a, a:active, a:hover {
   /* background-color: black; */
   background-color: #160258;
   height: 30vh;
+}
+
+.tracks-container {
+  margin-right: 15%;
+  margin-left: 15%;
   transition: transform .5s ease;
 }
 
-.music:hover {
+.tracks-container:hover {
   transform: scale(1.05, 1.05);
-}
-.tracks-container {
-  margin-left: 8%;
-  margin-right: 8%;
-
-  /* margin-top: 2%; */
+  transition: all 0.5s;  
 }
 .player-container {
   max-width: 100%;
@@ -544,18 +589,22 @@ a, a:active, a:hover {
 .player {
   max-width: 100%;
   width: 30%;
+  border-radius: 30px;
+  overflow: hidden;
 }
 /* End Music Section  */
 
 /* Footer section  */
 .footer {
-  min-height: 20vh;
+  /* margin-top: 20%; */
+  height: 30%;
   width: 100%;
   background-color: black;
   color: white;
-  flex-direction: column;
+  /* flex-direction: column; */
   text-align: center;
   padding: 5rem;
+  display: block;
 }
 
 .footer .footer-contact-info {

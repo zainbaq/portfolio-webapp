@@ -4,6 +4,8 @@ import { FaMailBulk, FaSteam, FaGithub, FaLinkedin, FaSpotify, FaChessKnight, Fa
 import Avatar from '../assets/images/me.jpg';
 
 const Body = () => {
+
+    
     return (
         <div id="body" className="body">
             <div className="body-container">
@@ -12,7 +14,9 @@ const Body = () => {
 
                     <div className="body-content">
                         <div className="body-headline">Zain Baquar</div>
-                        <div className="body-text">Software Engineer</div>
+                        <div className="body-text">
+                            Software Engineer || Musician || Gamer
+                        </div>
                     </div>
 
                     <div className="body-icons">
@@ -24,6 +28,7 @@ const Body = () => {
                         <a href="https://steamcommunity.com/profiles/76561198140502353/" target="_blank" rel="noreferrer" className="icon-link"><i><FaSteam/></i></a>
                         <a href="https://medium.com/@zainbaq" target="_blank" rel="noreferrer" className="icon-link"><i><FaMediumM/></i></a>
                     </div>
+        
                 </div>
             </div>
         </div>
