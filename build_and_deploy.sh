@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# remove old build
+rm -rf ./build
+
 # Pull master branch
 git pull origin master
 
