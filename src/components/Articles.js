@@ -52,7 +52,7 @@ const Articles = () => {
             autoplay: true,
             initialSlide: 0,
             slidesToShow: 1,
-            slidesToScroll: 2
+            slidesToScroll: 1
           }
         }
       ]
