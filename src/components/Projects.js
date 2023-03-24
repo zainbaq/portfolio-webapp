@@ -42,10 +42,11 @@ const Projects = () => {
         {
           breakpoint: 600,
           settings: {
-            infinite: false,
+            infinite: true,
             initialSlide: 0,
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            autoplay: false
           }
         }
       ]

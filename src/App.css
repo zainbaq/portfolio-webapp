@@ -128,7 +128,7 @@ a, a:active, a:hover {
 }
 
 .body-content {
-  padding-top: 6rem;
+  padding-top: 3rem;
   text-align: center;
 }
 
@@ -548,7 +548,7 @@ a, a:active, a:hover {
   /* font-weight: bolder; */
   text-align: center;
   /* text-shadow: 2px 3px 4px #000000; */
-  display: none;
+  display: inline-block;
   /* text-transform: uppercase; */
 }
 
