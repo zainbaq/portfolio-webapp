@@ -562,7 +562,7 @@ a, a:active, a:hover {
 .music {
   /* background-color: black; */
   background-color: #160258;
-  height: 30vh;
+  height: 40vh;
 }
 
 .tracks-container {
@@ -574,6 +574,7 @@ a, a:active, a:hover {
 .tracks-container:hover {
   transform: scale(1.05, 1.05);
   transition: all 0.5s;  
+  margin-bottom: 40px;
 }
 .player-container {
   max-width: 100%;
