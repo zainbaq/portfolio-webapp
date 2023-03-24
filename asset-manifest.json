@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-webapp/static/css/main.01b365cd.css",
+    "main.css": "/portfolio-webapp/static/css/main.0b064976.css",
     "main.js": "/portfolio-webapp/static/js/main.bc6ddccc.js",
     "static/media/pawel-czerwinski-eybM9n4yrpE-unsplash.jpg": "/portfolio-webapp/static/media/pawel-czerwinski-eybM9n4yrpE-unsplash.d99cb012670fc198e2b8.jpg",
     "static/media/speed_detector_image.png": "/portfolio-webapp/static/media/speed_detector_image.526747de9468e83df2ca.png",
@@ -16,11 +16,11 @@
     "static/media/slick.ttf": "/portfolio-webapp/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio-webapp/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-webapp/index.html",
-    "main.01b365cd.css.map": "/portfolio-webapp/static/css/main.01b365cd.css.map",
+    "main.0b064976.css.map": "/portfolio-webapp/static/css/main.0b064976.css.map",
     "main.bc6ddccc.js.map": "/portfolio-webapp/static/js/main.bc6ddccc.js.map"
   },
   "entrypoints": [
-    "static/css/main.01b365cd.css",
+    "static/css/main.0b064976.css",
     "static/js/main.bc6ddccc.js"
   ]
 }
